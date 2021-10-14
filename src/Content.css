@@ -3,6 +3,43 @@
 }
 
 .image {
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 300px;
+}
+
+.header {
+    font-family: 'Proxima Nova', Arial, sans-serif,;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subhead {
+    font-family: 'Proxima Nova', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.bodyArea {
+    width: 300px;
+    margin: auto;
+}
+
+.bodyText {
+    font-family: 'Proxima Nova', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.recSubject {
+    text-align: center;
 }

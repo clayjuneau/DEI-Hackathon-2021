@@ -15,12 +15,19 @@ class Content extends React.Component {
 
 					<table>
 						<tr>
-							<th>Metric 1</th>
-							<th>Reccomendations</th>
+							<td> <img class="image" src={this.props.imageLink}></img> </td>
+							<td> 
+								<p class="header">More Information</p>
+								<p class="subhead">{this.props.subhead}</p>
+								<div class="bodyArea">
+									<p class="bodyText">{this.props.body}</p>
+								</div>
+								
+							</td>
 						</tr>
 						<tr>
-							<td> <img class="image" src={this.props.imageLink}></img> </td>
-							<td> <p>some text</p> </td>
+							
+							<td> <p class="recSubject">{this.props.recSubject}</p> </td>
 						</tr>
 					</table>
 
